@@ -3,7 +3,7 @@ plugins {
     id("org.sonarqube") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.sonarqubeVersion
     detekt
     id("com.github.ben-manes.versions") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.checkDependencyVersionsVersion
-    id("com.osacky.doctor") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.gradleDoctorVersion
+    id("com.osacky.doctor") version 0.8.1
 }
 
 buildscript {
