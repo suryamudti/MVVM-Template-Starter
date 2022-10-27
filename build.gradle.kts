@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.kotlinVersion
-    id("org.sonarqube") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.sonarqubeVersion
+    id("org.sonarqube") version 3.5.0.2730
     detekt
     id("com.github.ben-manes.versions") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.checkDependencyVersionsVersion
     id("com.osacky.doctor") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.gradleDoctorVersion
