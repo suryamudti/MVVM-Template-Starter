@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.kotlinVersion
     id("org.sonarqube") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.sonarqubeVersion
     detekt
-    id("com.github.ben-manes.versions") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.checkDependencyVersionsVersion
+    id("com.github.ben-manes.versions") version 0.44.0
     id("com.osacky.doctor") version com.smile.mvvmtemplate.buildsrc.Depends.Versions.gradleDoctorVersion
 }
 
